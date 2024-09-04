@@ -6,6 +6,8 @@
     <title>Galeria de músicas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="dados.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,51 +15,10 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite aqui o nome de uma música ou um artista">
-            <button>Pesquisar</button>
+            <input type="text" id="barraPesquisa" placeholder="Digite aqui o nome de uma música ou um artista">
+            <button id="btnPesquisar">Pesquisar</button>
         </section>
         <section class="resultados-pesquisa">
-            <article class="item-resultado">
-                <div class="principais-informacoes">
-                    <img src="./assets/billie.jpeg" alt="Foto da Billie Elish">
-                    <div>
-                        <h2>Billie Elish</h2>
-                        <h3>Idade: <small>22 anos</small></h3>
-                        <h3>Principais Álbuns: <a href="">Hit Me Hard And Soft</a><span> | </span>
-                        <a href="">WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</a><span> | </span>
-                        <a href="">Happier Than Ever</a></h3>
-                        
-                    </div>
-                </div>
-                <p class="descricao-meta">Billie Eilish, com sua voz inconfundível e letras introspectivas, conquistou o mundo da música com uma rapidez impressionante. Sua sonoridade única, que mescla elementos do pop, eletrônico e alternativo, a tornou um ícone para uma geração que busca autenticidade e emoção nas canções. Com apenas alguns anos de carreira, Billie já coleciona diversos prêmios e recordes, além de uma legião de fãs apaixonados por sua música e estilo. Gostaria de saber mais sobre algum aspecto específico da carreira de Billie Eilish? Por exemplo, posso te contar mais sobre seus álbuns, suas letras, ou sua influência na cultura pop. <a href="https://pt.wikipedia.org/wiki/Billie_Eilish" target="_blank">Saiba mais</a></p>
-            </article>
-            <article class="item-resultado">
-                <div class="principais-informacoes">
-                    <img src="./assets/tyler.jpg" alt="Foto do Tyler, The Creator">
-                    <div>
-                        <h2>Tyler, The Creator</h2>
-                        <h3>Idade: <small>32 anos</small></h3>
-                        <h3>Principais Álbuns: <a href="">IGOR</a><span> | </span>
-                        <a href="">CALL ME IF YOU GET LOST</a><span> | </span>
-                        <a href="">Flower Boy</a></h3>
-                    </div>
-                </div>
-                <p class="descricao-meta">Tyler, The Creator é um rapper, cantor, compositor, produtor musical e diretor de arte americano. Conhecido por sua versatilidade musical e estilo visual distintivo, ele é um dos nomes mais influentes do hip-hop alternativo. Com letras que exploram temas como identidade, sexualidade e questões sociais, Tyler conquistou um público fiel e desafiou os limites do gênero. Seus álbuns, como "IGOR" e "CALL ME IF YOU GET LOST", são considerados obras-primas do hip-hop contemporâneo. Além de sua carreira musical, Tyler é fundador da marca de streetwear GOLF WANG. <a href="https://pt.wikipedia.org/wiki/Tyler,_the_Creator" target="_blank">Saiba mais</a></p>
-            </article>
-            <article class="item-resultado">
-                <div class="principais-informacoes">
-                    <img src="./assets/bruno.jpg" alt="Foto do Bruno Mars">
-                    <div>
-                        <h2>Bruno Mars</h2>
-                        <h3>Idade: <small>37 anos</small></h3>
-                        <h3>Principais Álbuns: <a href="">24K Magic</a><span> | </span>
-                        <a href="">Unorthodox Jukebox</a><span> | </span>
-                        <a href="">Doo-Wops & Hooligans</a></h3>
-                        
-                    </div>
-                </div>
-                <p class="descricao-meta">Bruno Mars é um cantor, compositor e produtor musical americano, conhecido por sua voz poderosa e performances energéticas. Com influências que vão do R&B ao pop, Bruno conquistou o mundo com hits como "Uptown Funk" e "Locked Out of Heaven". Seus shows são verdadeiras celebrações da música, com muita dança e coreografias elaboradas. Além de sua carreira solo, Bruno já colaborou com diversos artistas, como Mark Ronson e Cardi B. <a href="https://pt.wikipedia.org/wiki/Bruno_Mars" target="_blank">Saiba mais</a></p>
-            </article>
         </section>
     </main>
     <footer>
